@@ -5,26 +5,26 @@
 # fibonacci
 
 fibonacciList=[]
-a=1
-b=0
+sayiBir=1
+sayiIki=0
 toplam=0 
 for i in range(20):
-    toplam=a+b
-    a=b
-    b=toplam
+    toplam=sayiBir+sayiIki
+    sayiBir=sayiIki
+    sayiIki=toplam
     fibonacciList.append(toplam)
 print(fibonacciList)
 
 
 # mükemmel sayi
 
-sayi=int(input("Sayı Giriniz: "))
+sayiGir=int(input("Bir Sayı Giriniz: "))
 toplam=0
-for i in range(1,sayi):
-    if sayi%i==0:
+for i in range(1,sayiGir):
+    if sayiGir%i==0:
         toplam+=i
 
-if toplam==sayi:
-    print("Bu mükemmel sayıdır")
+if toplam==sayiGir:
+    print("Mükemmel Sayı! ")
 else:
-    print("Mükemmel sayı değildir")
+    print("Mükemmel Sayı Değildir! ")
