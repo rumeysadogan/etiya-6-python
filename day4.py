@@ -1,5 +1,4 @@
 # Aşağıdaki programı geliştiriniz: 
-
 # Kullanıcıyı sürekli konsolda tutarak istediği kadar işlem yapmasını sağlayacak bir hesap makinesi
 # programlayacağız. Hesaplama işlemlerinin her biri ayrı fonksiyon olmalıdır.
 # Kullanıcı klavyeden ilk olarak istediği işlemi ( + - / * % ) girmelidir. 
