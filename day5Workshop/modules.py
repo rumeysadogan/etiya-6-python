@@ -19,3 +19,6 @@ human1.talk("Merhaba")
 
 chromeDriver=webdriver.Chrome()
 #packages
+
+# pip install selenium  kurulumu yaptık 
+# webdriver çalıştı 
