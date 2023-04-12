@@ -7,61 +7,61 @@
 # programın hata vermesini sağlayalım. Kullanıcı işlem seçmek yerine “q” harfi girişi yaparsa programı 
 #  sonlandıralım aksi takdirde program her hesaplama sonrası tekrar işlem yapabilir olmalıdır.
 
-def Toplama():
-    sayi1 = int(input("1. Sayı: "))
-    sayi2 = int(input("2. Sayı: "))
-    print("sonuc=",sayi1,"+",sayi2,"=", sayi1+sayi2 )
+# def Toplama():
+#     sayi1 = int(input("1. Sayı: "))
+#     sayi2 = int(input("2. Sayı: "))
+#     print("sonuc=",sayi1,"+",sayi2,"=", sayi1+sayi2 )
  
-# Çıkarma Fonksiyonu
-def Cikarma():
-    sayi1 = int(input("1. Sayı: "))
-    sayi2 = int(input("2. Sayı: "))
-    print("sonuc=",sayi1,"-",sayi2,"=", sayi1-sayi2)
+# # Çıkarma Fonksiyonu
+# def Cikarma():
+#     sayi1 = int(input("1. Sayı: "))
+#     sayi2 = int(input("2. Sayı: "))
+#     print("sonuc=",sayi1,"-",sayi2,"=", sayi1-sayi2)
  
-# Çarpma Fonksiiyonu
-def Carpma():
-    sayi1 = int(input("1. Sayı: "))
-    sayi2 = int(input("2. Sayı: "))
-    print("sonuc=",sayi1,"*",sayi2,"=", sayi1*sayi2)
+# # Çarpma Fonksiiyonu
+# def Carpma():
+#     sayi1 = int(input("1. Sayı: "))
+#     sayi2 = int(input("2. Sayı: "))
+#     print("sonuc=",sayi1,"*",sayi2,"=", sayi1*sayi2)
  
-# Bölme Fonksiyonu
-def Bolme():
-    sayi1 = int(input("1. Sayı: "))
-    sayi2 = int(input("2. Sayı: "))
-    print("sonuc=",sayi1,"/",sayi2,"=", sayi1/sayi2)
+# # Bölme Fonksiyonu
+# def Bolme():
+#     sayi1 = int(input("1. Sayı: "))
+#     sayi2 = int(input("2. Sayı: "))
+#     print("sonuc=",sayi1,"/",sayi2,"=", sayi1/sayi2)
 
-# Mod Fonksiyonu
-def Mod():
-    sayi1 = int(input("1. Sayı: "))
-    sayi2 = int(input("2. Sayı: "))
-    print("sonuc=",sayi1,"%",sayi2,"=", sayi1%sayi2)
+# # Mod Fonksiyonu
+# def Mod():
+#     sayi1 = int(input("1. Sayı: "))
+#     sayi2 = int(input("2. Sayı: "))
+#     print("sonuc=",sayi1,"%",sayi2,"=", sayi1%sayi2)
  
-print("Yapılacak İşlemi Seçin.")
+# print("Yapılacak İşlemi Seçin.")
 
-# Kullanıcıdan Seçim İsteme
-islem = 0
+# # Kullanıcıdan Seçim İsteme
+# islem = 0
 
-while islem==0:
-    secim = input("Seçiminiz (+ - * % / ):")
+# while islem==0:
+#     secim = input("Seçiminiz (+ - * % / ):")
 
-    if secim == "q":
-        print("Programdan çıkılıyor...")
-        islem=1
+#     if secim == "q":
+#         print("Programdan çıkılıyor...")
+#         islem=1
 
-    elif secim == '+':
-        Toplama()
+#     elif secim == '+':
+#         Toplama()
     
-    elif secim == '-':
-        Cikarma()
+#     elif secim == '-':
+#         Cikarma()
     
-    elif secim == '*':
-        Carpma()
+#     elif secim == '*':
+#         Carpma()
     
-    elif secim == '/':
-        Bolme()
+#     elif secim == '/':
+#         Bolme()
 
-    elif secim == '%':
-        Mod()
+#     elif secim == '%':
+#         Mod()
 
-    else:
-        print("Hatalı giriş yaptınız")
+#     else:
+#         print("Hatalı giriş yaptınız")
